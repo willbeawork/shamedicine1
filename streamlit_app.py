@@ -262,8 +262,8 @@ player2 = st.sidebar.text_input(
 )
 points_to_win = st.sidebar.slider(
     "Points to win",
-    min_value=3,
-    max_value=20,
+    min_value=10,
+    max_value=40,
     value=st.session_state.get("points_to_win", 10),
 )
 
